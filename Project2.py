@@ -61,11 +61,11 @@ elif answer5 == "D":
 print(f"Your score is {france_points} france, {usa_points} usa,{mexico_points} mexico, and {greece_points} greece")
 input()
 # End: determine results
-if france_points > usa_points and france_points > mexico_points and france_points > greece_points:
+if france_points >= usa_points and france_points >= mexico_points and france_points >= greece_points:
     print(" You are going to live in France!")
-elif usa_points > france_points and usa_points > mexico_points and usa_points > greece_points:
+elif usa_points >= france_points and usa_points >= mexico_points and usa_points >= greece_points:
     print(" You are going to live in the usa!")
-elif mexico_points > france_points and mexico_points > usa_points and mexico_points > greece_points:
+elif mexico_points >= france_points and mexico_points >= usa_points and mexico_points >= greece_points:
     print(" You are going to live in mexico!")
-elif greece_points > france_points and greece_points > usa_points and greece_points > mexico_points:
+elif greece_points >= france_points and greece_points >= usa_points and greece_points >= mexico_points:
     print(" You are going to live in Greece!")
