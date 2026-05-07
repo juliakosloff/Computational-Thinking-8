@@ -11,8 +11,9 @@ for i in range(6):
     # Guess a word
     guess_word = input()
     output = ""
-    if len(guess_word) != 4:
+    if len(guess_word) != 5:
         print("Error, guess a five letter word.")
+    
     
     # First letter (in python, counting starts at 0 not 1)
     if guess_word[0] == hidden_word[0]:
